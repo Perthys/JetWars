@@ -6,7 +6,7 @@ dead game, ok code
 ```lua 
 loadstring(game:HttpGet('https://raw.githubusercontent.com/Perthys/JetWars/main/main.lua'))()({
     GiveForceField = true; -- So you can rocket jump 
-    CheckBackpack = false;
-    Disable = false
+    CheckBackpack = false; -- Basically Auto equips 
+    Disable = false  -- Toggle On or off
 })
 ```
